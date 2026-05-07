@@ -1,0 +1,20 @@
+cod = int(input('informe o código do seu cargo'))
+sal = int(input('informe o salario'))
+soma = 0
+qnt = 0
+
+
+while 1 <= cod <= 3 :
+   
+    if cod == 2:
+        soma += sal
+        qnt += 1
+    cod = int(input('informe o código do seu cargo'))
+    sal = int(input('informe o salario')) 
+
+
+if qnt > 0:
+    media = soma / qnt
+    print ('media dos nutricionistas é ', media)
+
+
